@@ -5,7 +5,7 @@ Summary:	HTML::Stream - HTML output stream class, and some markup utilities
 Summary(pl):	HTML::Stream - klasa produkuj±ca strumieñ HTML oraz narzêdza do znaczników
 Name:		perl-HTML-Stream
 Version:	1.54
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
