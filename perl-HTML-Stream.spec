@@ -3,7 +3,7 @@ Summary:	HTML-Stream perl module
 Summary(pl):	Modu³ perla HTML-Stream
 Name:		perl-HTML-Stream
 Version:	1.49
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
