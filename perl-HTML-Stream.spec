@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Stream
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-Stream perl module
 Summary(pl):	Modu³ perla HTML-Stream
 Name:		perl-HTML-Stream
 Version:	1.54
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ HTML-Stream perl module.
 Modu³ perla HTML-Stream.
 
 %prep
-%setup -q -n HTML-Stream-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
