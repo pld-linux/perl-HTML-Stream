@@ -1,11 +1,10 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Stream
-Summary:	HTML::Stream perl module
-Summary(pl):	Modu³ perla HTML::Stream
+Summary:	HTML::Stream - HTML output stream class, and some markup utilities
 Name:		perl-HTML-Stream
 Version:	1.54
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -16,10 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML::Stream perl module.
-
-%description -l pl
-Modu³ perla HTML::Stream.
+The B<HTML::Stream> module provides you with an object-oriented
+(and subclassable) way of outputting HTML.  Basically, you open up
+an "HTML stream" on an existing filehandle, and then do all of your
+output to the HTML stream.  You can intermix HTML-stream-output and
+ordinary-print-output, if you like.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
