@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Stream
-Summary:	HTML-Stream perl module
-Summary(pl):	Modu³ perla HTML-Stream
+Summary:	HTML::Stream perl module
+Summary(pl):	Modu³ perla HTML::Stream
 Name:		perl-HTML-Stream
 Version:	1.54
 Release:	5
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-Stream perl module.
+HTML::Stream perl module.
 
 %description -l pl
-Modu³ perla HTML-Stream.
+Modu³ perla HTML::Stream.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
