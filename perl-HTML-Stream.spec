@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Stream
+%define		pdir	HTML
+%define		pnam	Stream
 Summary:	HTML::Stream - HTML output stream class, and some markup utilities
 Summary(pl):	HTML::Stream - klasa produkuj±ca strumieñ HTML oraz narzêdzia do znaczników
 Name:		perl-HTML-Stream
