@@ -6,7 +6,8 @@ Summary(pl):	HTML::Stream - klasa produkuj±ca strumieñ HTML oraz narzêdza do zna
 Name:		perl-HTML-Stream
 Version:	1.55
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c25de08883353b789fd2b544626a60d4
