@@ -9,6 +9,7 @@ Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	9de12702593e198ddd4d564af61149ea
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-HTML-Parser
 BuildRequires:	rpm-perlprov >= 4.1-13
