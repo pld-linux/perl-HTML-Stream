@@ -4,12 +4,12 @@
 Summary:	HTML::Stream - HTML output stream class, and some markup utilities
 Summary(pl):	HTML::Stream - klasa produkuj±ca strumieñ HTML oraz narzêdza do znaczników
 Name:		perl-HTML-Stream
-Version:	1.54
-Release:	8
+Version:	1.55
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9de12702593e198ddd4d564af61149ea
+# Source0-md5:	c25de08883353b789fd2b544626a60d4
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-HTML-Parser
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README docs/*.html docs/index.menu docs/HTML docs/icons etc examples
-%{perl_vendorlib}/HTML/Stream.pm
+%doc README docs/*.html docs/index.menu docs/%{pdir} docs/icons etc examples
+%{perl_vendorlib}/%{pdir}/%{pnam}.pm
 %{_mandir}/man3/*
