@@ -2,7 +2,7 @@
 Summary:	HTML-Stream perl module
 Summary(pl):	Modu³ perla HTML-Stream
 Name:		perl-HTML-Stream
-Version:	1.51
+Version:	1.54
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -10,7 +10,7 @@ Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-Stream-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-HTML-Parser
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
