@@ -3,7 +3,7 @@ Summary:	HTML-Stream perl module
 Summary(pl):	Modu³ perla HTML-Stream
 Name:		perl-HTML-Stream
 Version:	1.54
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -39,6 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz docs/*.gz docs/HTML/* etc examples
+%doc *.gz docs/*.html docs/index.menu docs/HTML docs/icons etc examples
 %{perl_sitelib}/HTML/Stream.pm
 %{_mandir}/man3/*
