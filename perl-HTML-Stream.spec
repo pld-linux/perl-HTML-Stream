@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	Stream
 Summary:	HTML::Stream - HTML output stream class, and some markup utilities
-Summary(pl):	HTML::Stream - klasa produkuj±ca strumieñ HTML oraz narzêdzia do znaczników
+Summary(pl.UTF-8):   HTML::Stream - klasa produkujÄ…ca strumieÅ„ HTML oraz narzÄ™dzia do znacznikÃ³w
 Name:		perl-HTML-Stream
 Version:	1.55
 Release:	1
@@ -24,11 +24,11 @@ stream" on an existing filehandle, and then do all of your output to
 the HTML stream. You can intermix HTML-stream-output and
 ordinary-print-output, if you like.
 
-%description -l pl
-Modu³ HTML::Stream udostêpnia obiektowo zorientowane (i poddaj±ce siê
-dziedziczeniu) metody do produkowania HTML. Wystarczy otworzyæ
-"strumieñ HTML" na istniej±cym uchwycie pliku, a nastêpnie przekazywaæ
-ca³e wyj¶cie do tego strumienia. Mo¿na przeplataæ wyj¶cie do
+%description -l pl.UTF-8
+ModuÅ‚ HTML::Stream udostÄ™pnia obiektowo zorientowane (i poddajÄ…ce siÄ™
+dziedziczeniu) metody do produkowania HTML. Wystarczy otworzyÄ‡
+"strumieÅ„ HTML" na istniejÄ…cym uchwycie pliku, a nastÄ™pnie przekazywaÄ‡
+caÅ‚e wyjÅ›cie do tego strumienia. MoÅ¼na przeplataÄ‡ wyjÅ›cie do
 strumienia HTML z normalnym.
 
 %prep
