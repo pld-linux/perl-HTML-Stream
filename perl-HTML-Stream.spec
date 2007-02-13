@@ -2,7 +2,7 @@
 %define		pdir	HTML
 %define		pnam	Stream
 Summary:	HTML::Stream - HTML output stream class, and some markup utilities
-Summary(pl.UTF-8):   HTML::Stream - klasa produkująca strumień HTML oraz narzędzia do znaczników
+Summary(pl.UTF-8):	HTML::Stream - klasa produkująca strumień HTML oraz narzędzia do znaczników
 Name:		perl-HTML-Stream
 Version:	1.55
 Release:	1
