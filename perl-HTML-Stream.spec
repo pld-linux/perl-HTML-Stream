@@ -8,12 +8,13 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dfc0376eb1359568769e1c22891c24ea
-URL:		http://search.cpan.org/dist/HTML-Stream/
+URL:		https://metacpan.org/dist/HTML-Stream
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-HTML-Parser
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
